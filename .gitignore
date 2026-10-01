@@ -1,0 +1,29 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+crash.*.log
+*.tfplan
+*.tfplan.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Variable files (may contain secrets)
+*.tfvars
+*.tfvars.json
+!example.tfvars
+
+# Credentials
+clouds.yaml
+openrc
+*.pem
+*.key
+keys/
+
+# Tooling
+terraform.rc
+terraform.d/
